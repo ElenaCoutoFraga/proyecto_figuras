@@ -14,3 +14,7 @@ print(f"El área de un {triangulo.get_identificador()} de base {base} y altura {
 print(rectangulo.get_identificador())
 print(f"El area de un {rectangulo.get_identificador()} de base {base} y altura {altura} es:
       {rectangulo.get_area(base,altura)} y el perímetro es: {rectangulo.get_perimetro(base,altura)}")
+
+print(circunferencia.get_identificador())
+print(f"El area de una {circunferencia.get_identificador()} de radio {radio} es:
+      {circunferencia.get_area(radio)}")
